@@ -25,8 +25,25 @@ Assumptions for Markov Chain :
 
 # Program
 
+```python
+# Developed by
+# Register Number: 212220230019
+# Name: Gowri M
+
+import numpy as np
+P0=[0.3,0.2,0.5]
+P=[[0,2/3,1/3],[1/2,0,1/2],[1/2,1/2,0]]
+n=8
+for i in range(1,n+1):
+    P0=np.multiply(P0,P)
+    print("\nThe %d - step probability distribution is\n"%i)
+    print(P0)
+```
 
 
+# Output : 
+![pq](https://user-images.githubusercontent.com/75235455/170193236-57f69168-519c-4a75-871c-d6befaad395b.PNG)
 
-# Results and Output : 
+# Result :
+
 
