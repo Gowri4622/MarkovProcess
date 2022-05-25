@@ -45,5 +45,6 @@ for i in range(1,n+1):
 ![pq](https://user-images.githubusercontent.com/75235455/170193236-57f69168-519c-4a75-871c-d6befaad395b.PNG)
 
 # Result :
+n-th step probability distribution matrix of the three state Markov process was claculated for given transition probability matrix.
 
 
